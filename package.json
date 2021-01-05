@@ -1,94 +1,53 @@
 {
-  "name": "Taiyaki_Typed",
-  "version": "0.0.1",
-  "build": 83,
+  "name": "taiyaki-web",
+  "homepage": "https://Michael24884.github.io/TaiYaKiAnime",
+  "version": "0.1.0",
   "private": true,
-  "scripts": {
-    "android": "react-native run-android",
-    "ios": "react-native run-ios",
-    "start": "react-native start",
-    "test": "jest",
-    "lint": "eslint . --ext .js,.jsx,.ts,.tsx",
-    "clean-up": " rm -rf android/app/src/main/res/drawable-* && rm -rf ./android/app/src/main/res/raw",
-    "generate-apk": "cd android && ./gradlew assembleRelease && open ./app/build/outputs/apk/",
-    "bundle-android": "react-native bundle --platform android --dev false --entry-file index.js --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && cd android && ./gradlew clean && ./gradlew assembleRelease -x bundleReleaseJsAndAssets && cd .."
-  },
-  "engines": {
-    "node": "15.4.0"
-  },
   "dependencies": {
-    "@react-native-async-storage/async-storage": "^1.13.2",
-    "@react-native-community/blur": "^3.6.0",
-    "@react-native-community/datetimepicker": "^3.0.5",
-    "@react-native-community/masked-view": "^0.1.10",
-    "@react-native-community/picker": "^1.8.1",
-    "@react-native-community/push-notification-ios": "^1.8.0",
-    "@react-native-community/slider": "^3.0.3",
-    "@react-native-community/viewpager": "^4.2.0",
-    "@react-navigation/bottom-tabs": "^5.11.1",
-    "@react-navigation/native": "^5.8.9",
-    "@react-navigation/stack": "^5.12.6",
-    "immer": "^8.0.0",
-    "lodash": "^4.17.20",
-    "moment": "^2.29.1",
-    "react": "16.13.1",
-    "react-native": "0.63.3",
-    "react-native-background-fetch": "^3.1.0",
-    "react-native-bootsplash": "^3.1.2",
-    "react-native-cheerio": "^1.0.0-rc.4",
-    "react-native-code-push": "^6.4.1",
-    "react-native-device-info": "^7.1.0",
-    "react-native-dynamic-vector-icons": "^1.1.4",
-    "react-native-fast-image": "^8.3.3",
-    "react-native-gesture-handler": "^1.8.0",
-    "react-native-home-indicator": "^0.2.6",
-    "react-native-inappbrowser-reborn": "^3.5.1",
-    "react-native-linear-gradient": "^2.5.6",
-    "react-native-modalize": "^2.0.6",
-    "react-native-orientation-locker": "^1.2.0",
-    "react-native-parsed-text": "^0.0.22",
-    "react-native-picker-select": "^8.0.3",
-    "react-native-progress": "^4.1.2",
-    "react-native-push-notification": "^6.1.3",
-    "react-native-reanimated": "^2.0.0-alpha.8",
-    "react-native-reanimated-slider": "^1.0.6",
-    "react-native-redash": "^15.11.1",
-    "react-native-safe-area-context": "^3.1.8",
-    "react-native-screens": "^2.14.0",
-    "react-native-stretchy": "^4.0.0",
-    "react-native-timeago": "^0.5.0",
-    "react-native-vector-icons": "^7.1.0",
-    "react-native-video": "^5.1.0-alpha8",
-    "react-query": "^2.26.2",
-    "zustand": "^3.1.4"
+    "@testing-library/jest-dom": "^5.11.4",
+    "@testing-library/react": "^11.1.0",
+    "@testing-library/user-event": "^12.1.10",
+    "@types/jest": "^26.0.15",
+    "@types/node": "^12.0.0",
+    "@types/react": "^16.9.53",
+    "@types/react-dom": "^16.9.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-icons": "^4.1.0",
+    "react-responsive": "^8.2.0",
+    "react-scripts": "4.0.1",
+    "react-spring": "^8.0.27",
+    "typescript": "^4.0.3",
+    "web-vitals": "^0.2.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy": "build && gh-pages -d build"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
   },
   "devDependencies": {
-    "@babel/core": "^7.8.4",
-    "@babel/runtime": "^7.8.4",
-    "@react-native-community/eslint-config": "^1.1.0",
-    "@types/jest": "^25.2.3",
-    "@types/qs": "^6.9.5",
-    "@types/react-native": "^0.63.2",
-    "@types/react-native-video": "^5.0.3",
-    "@types/react-test-renderer": "^16.9.2",
-    "@typescript-eslint/eslint-plugin": "^2.27.0",
-    "@typescript-eslint/parser": "^2.27.0",
-    "babel-jest": "^25.1.0",
-    "eslint": "^6.5.1",
-    "jest": "^25.1.0",
-    "metro-react-native-babel-preset": "^0.64.0",
-    "react-test-renderer": "16.13.1",
-    "typescript": "^4.1.3"
-  },
-  "jest": {
-    "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
-    ]
+    "@types/react-responsive": "^8.0.2",
+    "@types/styled-components": "^5.1.7",
+    "gh-pages": "^3.1.0"
   }
 }

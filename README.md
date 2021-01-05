@@ -1,83 +1,46 @@
+# Getting Started with Create React App
 
-# Taiyaki
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-<p align="center">
-<img src="ExtAssets/img/banner.svg" height="400">
-</p>
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## Here are a few key features / previews of the Taiyaki app
+### `yarn start`
 
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-|                           Home Screen                           |     Dark Version           |
-| :---------------------------------------------------------------: | :-------------------------------------------------: |
-| <img src="ExtAssets/img/detail9.png" width="300">          |  <img src="ExtAssets/img/detail4.png" width="300">|
-|       Light Version                                      |      Queue Player support to binge all your anime in one sitting             |
-|<img src="ExtAssets/img/detail3.png" width="300">           |  <img src="ExtAssets/img/detail6.png" width="300">|
-|       See multiple recommendations                        |     Spoiler-free support to prevent accidental reveals |
-|<img src="ExtAssets/img/detail10.png" width="300">           |  <img src="ExtAssets/img/detail5.png" width="300">  |
-|       Multiple third party tracker support                                           |     Update all your data in one place  |
-|<img src="ExtAssets/img/detail7.png" width="300">           |  <img src="ExtAssets/img/detail8.png" width="300"> |
-|       In App video player                                       |     In App video player + Up Next                   |
-|<img src="ExtAssets/img/detail1.png"  width="500">          | <img src="ExtAssets/img/detail2.png" width="500">|
+The page will reload if you make edits.\
+You will also see any lint errors in the console.
 
-(Images are on an iPhone but are the same for Android)
+### `yarn test`
 
----
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### Note: This app is not intended to promote piracy, and instead makes it safer and much more reliable for the intended user
+### `yarn build`
 
-### Please Note that Taiyaki will always remain free with no ads. If you ever encounter ads or require payment to use any part of the app, please uninstall them and report it
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
----
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
-## FAQ
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-_Is Taiyaki legal?_
+### `yarn eject`
 
-#### Yes! Taiyaki does not host any of these anime on any server, neither is it maintained. Instead Taiyaki scrapes the data of various websites, stripping the unnecessary (and sometimes harmful) ads out of the way
+**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
 
----
+If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-_Will Taiyaki be available for my Android TV or Desktop?_
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
 
-#### As Taiyaki improves more devices will be supported. But the most certain answer would be most likely. This would be a quicker process as most of the logic is done, the layout however would have to be updated to be reflected based on the desired screen size
+You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
----
+## Learn More
 
-_Can I request a source?_
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
-#### Of course! Join the Discord server and ask around to see if anyone is willing to fulfill your request. You can contribute by learning how to make one and then making it available for the rest of the community
-
----
-
-_How do I report a bug?_
-
-#### No app is perfect. If you find any bugs or something that doesn't look right, you can report this in the Discord where it would most definitely be seen. Most of the users on there should be able to help you out for any other issues that you may be having
-
----
-
-_How do I contribute to Taiyaki?_
-
-#### The source code for Taiyaki is available on Github. You can help out by forking the project, modifying, adding, or fixing up bugs, then make a pull request, and wait for it to be reviewed and merged!
-
----
-
-## iOS
-
-Taiyaki is available on TestFlight and is compatible with iPhone and iPad. TestFlight is limited to only 10,000 users
-
-[Download on TestFlight](https://testflight.apple.com/join/MLL0nUqr "Download on TestFlight")
-
-### Android
-
-Taiyaki is available on all Android devices. Support for more screen sizes are arriving later on(e.g Android TV, Tablets, etc). No limit for Android users
-
-[Download on Github](https://github.com/Michael24884/TaiYaKiAnime/releases "Download through Github")
-
-## TODO
-
-- [ ] Downloads
-- [ ] Increase Sources
-- [ ] Prettify / Remove unnecessary code
+To learn React, check out the [React documentation](https://reactjs.org/).
