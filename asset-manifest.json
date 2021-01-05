@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/TaiYaKiAnime/static/css/main.9401c246.chunk.css",
+    "main.js": "/TaiYaKiAnime/static/js/main.653e1b27.chunk.js",
+    "main.js.map": "/TaiYaKiAnime/static/js/main.653e1b27.chunk.js.map",
+    "runtime-main.js": "/TaiYaKiAnime/static/js/runtime-main.4107b29a.js",
+    "runtime-main.js.map": "/TaiYaKiAnime/static/js/runtime-main.4107b29a.js.map",
+    "static/js/2.a939f565.chunk.js": "/TaiYaKiAnime/static/js/2.a939f565.chunk.js",
+    "static/js/2.a939f565.chunk.js.map": "/TaiYaKiAnime/static/js/2.a939f565.chunk.js.map",
+    "static/js/3.b3c1d461.chunk.js": "/TaiYaKiAnime/static/js/3.b3c1d461.chunk.js",
+    "static/js/3.b3c1d461.chunk.js.map": "/TaiYaKiAnime/static/js/3.b3c1d461.chunk.js.map",
+    "index.html": "/TaiYaKiAnime/index.html",
+    "static/css/main.9401c246.chunk.css.map": "/TaiYaKiAnime/static/css/main.9401c246.chunk.css.map",
+    "static/js/2.a939f565.chunk.js.LICENSE.txt": "/TaiYaKiAnime/static/js/2.a939f565.chunk.js.LICENSE.txt",
+    "static/media/background1.6e26d64d.jpg": "/TaiYaKiAnime/static/media/background1.6e26d64d.jpg",
+    "static/media/background_2.cf529410.png": "/TaiYaKiAnime/static/media/background_2.cf529410.png",
+    "static/media/background_3.985bd795.jpg": "/TaiYaKiAnime/static/media/background_3.985bd795.jpg",
+    "static/media/screenshot_main.e5a7c5c5.png": "/TaiYaKiAnime/static/media/screenshot_main.e5a7c5c5.png",
+    "static/media/screenshot_queue.c6c3380d.png": "/TaiYaKiAnime/static/media/screenshot_queue.c6c3380d.png",
+    "static/media/screenshot_spoiler.802a764c.png": "/TaiYaKiAnime/static/media/screenshot_spoiler.802a764c.png",
+    "static/media/screenshot_tracker.ab49158e.png": "/TaiYaKiAnime/static/media/screenshot_tracker.ab49158e.png",
+    "static/media/screenshot_update_status.eb5e5d06.png": "/TaiYaKiAnime/static/media/screenshot_update_status.eb5e5d06.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4107b29a.js",
+    "static/js/2.a939f565.chunk.js",
+    "static/css/main.9401c246.chunk.css",
+    "static/js/main.653e1b27.chunk.js"
+  ]
+}
